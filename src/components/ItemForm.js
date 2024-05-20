@@ -23,7 +23,7 @@ function ItemForm({onAddItem}) {
   };
 
   return (
-    <form className="(NewItem)" onSubmit={handleSubmit}>
+    <form className="NewItem" onSubmit={handleSubmit}>
       <label>
         Name:
         <input
